@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center"><%=title%></h1>
+      </div>
+    </div>
+    <div class="row">
+      <% listings.forEach(function(listing){%>
+      <div class="col-md-4 mb-2">
+        <div class="card text-center bg-light">
+          <div class="card-body">
+            <%=listing%>
+          </div>
+        </div>
+      </div>
+     <% })%>
+    </div>
+  </div>
+</body>
+
+</html>
