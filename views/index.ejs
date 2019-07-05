@@ -4,9 +4,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-	<meta name="generator" content="Jekyll v3.8.5">
 	<title>Shop Nani</title>
 
 	<!-- Bootstrap core CSS -->
@@ -37,8 +34,7 @@
 		<defs>
 			<symbol id="icon-search" viewBox="0 0 24 24">
 				<title>Search</title>
-				<path
-					d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+				<path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
 			</symbol>
 		</defs>
 	</svg>
@@ -58,7 +54,7 @@
 		
 		<div class="container">
 			<div class="row">
-					<button type="button" class="btn btn-outline-info mb-4" style= "text-transform: uppercase"  data-toggle="modal" data-target="#exampleModalLong">
+					<button type="button" class="btn btn-outline-info mb-4" style="text-transform: uppercase"  data-toggle="modal" data-target="#exampleModalLong">
 							Categories
 						  </button>
 						  
@@ -87,11 +83,8 @@
 						</div>
 					</div>
 				</div>
-
-
 				<%if(!product){%>
 				<div class="search__form">
-					
 					<h1>No Products</h1>
 				</div>
 				<%}else{%>
@@ -102,8 +95,7 @@
 					<div class="card mb-4 container custom-card col-md-8">
 						<div class="row no-gutters">
 							<div class="col-md-2">
-								<img src="<%=imageUrls[2]%>" class="card-img" style="object-fit: scale-down"
-									height="225" alt="...">
+								<img src="<%=imageUrls[2]%>" class="card-img" style="object-fit: scale-down" height="225" alt="...">
 							</div>
 							<div class="col-xl-10">
 								<div class="card-body">
@@ -128,17 +120,13 @@
 		</div>
 	</div>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-	</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script>
 		window.jQuery || document.write(
 			'<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>'
 		)
 	</script>
-	<script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous">
-	</script>
+	<script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 </body>
 
 </html>
