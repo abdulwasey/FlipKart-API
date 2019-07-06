@@ -97,4 +97,28 @@ router.get("/:category", function (req, res, next) {
 });
 
 
+/** 
+ * 
+ * Code for performing fuzzy search
+ * 
+function escapeRegex(text) {
+  return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+};
+
+router.post("/search", (req, res) => {
+  var search = req.body.search;
+  const regex = new RegExp(escapeRegex(search), 'gi');
+  Products.find({ name: regex }, function (err, searchResult) {
+    if (err) {
+      console.log(err);
+    } else {
+      res.render("index", { product: searchResult });
+    }
+  })
+});
+*
+*/
+
+
+
 module.exports = router;
