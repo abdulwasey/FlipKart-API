@@ -1,4 +1,4 @@
 module.exports = {
-    "trackingId":"<YOUR TARCKING ID>",
+    "trackingId":"<YOUR TRACKING ID>",
     "token":"<YOUR TOKEN>"
 }
