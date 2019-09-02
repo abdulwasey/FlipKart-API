@@ -1,4 +1,4 @@
-# Shop Nani
+# FlipKart API
 
 Basic search implementation of Flipkarts API
 
